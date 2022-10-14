@@ -16,3 +16,8 @@ Rol: Analista
 David Andres Osorio C \
 Grupo: Desarrollo Web_Grupos 09-10 \
 Rol: Administrador DB
+
+\
+Magnolia Rocio Montaño Velosa \
+Grupo: Desarrollo Web_Grupos 31-32 \
+Rol: Developer
