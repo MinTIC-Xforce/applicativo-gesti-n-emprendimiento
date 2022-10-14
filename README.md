@@ -23,6 +23,6 @@ Grupo: Desarrollo Web_Grupos 31-32 \
 Rol: Developer
 
 \
-Daniel Certuche Grueso
+Daniel Certuche Grueso \
 Grupo: Desarrollo Web_Grupos 09-10 \
 Rol: Scrum Master 
