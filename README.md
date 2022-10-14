@@ -11,3 +11,8 @@ Rol: Product Owner
 Alejandro Ule Duque \
 Grupo: Desarrollo Web_Grupos 11-12 \
 Rol: Analista
+
+\
+David Andres Osorio C \
+Grupo: Desarrollo Web_Grupos 09-10 \
+Rol: Administrador DB
