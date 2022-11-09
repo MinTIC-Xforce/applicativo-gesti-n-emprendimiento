@@ -1,0 +1,26 @@
+{"productos":[
+    {
+        "id": "ubuwbdjbej",
+        "urlImagen": "https:url---1",
+        "nombre": "Pan casero 1",
+        "características": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "precio": "2000"
+    },
+    {
+        "id": "ubuwbdjbejrttrt",
+        "urlImagen": "https:url---2",
+        "nombre": "pastel",
+        "características": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "precio": "4000"
+    },
+    {
+        "id": "ubuwbdjbejrghyy",
+        "urlImagen": "https:url---3",
+        "nombre": "pan casero",
+        "características": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "precio": "6000"
+    }
+
+]
+
+}
