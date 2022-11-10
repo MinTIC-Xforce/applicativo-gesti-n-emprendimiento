@@ -24,7 +24,7 @@ export function Login() {
                 <div class="shape"></div>
             </div>
             <form>
-            <h3>Login Pantasya App</h3>
+            <h3>Login PANtasya App</h3>
 
             <label for="username">Username</label>
             <input type="text" placeholder="Email or Phone" id="username" onChange={(e) => {

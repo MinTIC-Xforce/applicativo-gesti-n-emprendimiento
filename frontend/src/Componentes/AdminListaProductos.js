@@ -10,7 +10,7 @@ export const ListaProductosAdmin = () => {
 
 
     function getData() {
-        fetch("http://localhost:5000/ProductosStock")
+        fetch("http://localhost:3000/products")
             .then((resp) => resp.json())
             .then((resp) => {
                 return setDataProductos(resp)
@@ -38,10 +38,10 @@ export const ListaProductosAdmin = () => {
                     {dataProductos.map((Producto) => (
                         <tr key={Producto.id}>
                             <td>{Producto.id}</td>
-                            <td>{Producto.nombre}</td>
-                            <td>{Producto.descripcion}</td>
+                            <td>{Producto.name}</td>
+                            <td>{Producto.description}</td>
                             <td>{Producto.stock}</td>
-                            <td>{Producto.valor}</td>
+                            <td>{Producto.price}</td>
                             <td><img src={Producto.imagen} width={100}></img></td>
                             <td> <button>MODIFICAR PRODUCTOS</button> </td>
                         </tr>
