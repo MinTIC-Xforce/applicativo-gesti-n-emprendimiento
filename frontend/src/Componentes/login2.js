@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { useState } from "react";
 import JsonData from "../data/UsuariosEjemplo.json";
 
-import '../Estilos/Login2.css';
+import '../Estilos/Login.css';
 
 
 export function Login() {
@@ -19,33 +19,29 @@ export function Login() {
 
         <Fragment>
             <center>
-            <div class="background">
-                <div class="shape"></div>
-                <div class="shape"></div>
-            </div>
-            <form>
-            <h3>Login Pantasya App</h3>
-
-            <label for="username">Username</label>
-            <input type="text" placeholder="Email or Phone" id="username" onChange={(e) => {
+                <div id="divLogin">
+                    <h3>Ingreso - Venta - Productos industriales</h3>
+                    <label>Usuario
+                        <input type="User" onChange={(e) => {
                             setDate({ ...data, user: e.target.value })
                         }
-                        }></input>
-
-            <label for="password">Password</label>
-            <input type="password" placeholder="Password" id="password" onChange={(e) => {
+                        } ></input>
+                    </label>
+                    <br></br>
+                    <br></br>
+                    <label>Contraseña
+                        <input type="pass" onChange={(e) => {
                             setDate({ ...data, pass: e.target.value })
                             
                         }
                         
-                        }></input>
+                        } ></input>
+                    </label>
+                    <br></br>
+                    <br></br>
+                    <button onClick={VerInfo} >Ingresar</button>
 
-            <button onClick={VerInfo}>Log In</button>
-            <div class="social">
-                 <div class="go"><i class="fab fa-google"></i>  Google</div>
-                 <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
-            </div>
-            </form>
+                </div>
             </center>
         </Fragment>
 
