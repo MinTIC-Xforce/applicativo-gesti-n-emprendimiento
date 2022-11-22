@@ -38,6 +38,10 @@ export const MenuNavegacion = ({ rol }) => {
               <Link className="nav-link" to={"/CrearUsuarios"}>Crear CrearUsuarios
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to={"/CarritoCompras"}>Carrito
+              </Link>
+            </li>
           </ul>
         ) : (
           <ul className="navbar-nav">

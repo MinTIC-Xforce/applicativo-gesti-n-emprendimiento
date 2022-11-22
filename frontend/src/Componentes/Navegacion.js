@@ -9,7 +9,7 @@ import { CrearProdcutos } from "./AdminCrearProductos.js";
 import { ListaProductosAdmin } from "./AdminListaProductos";
 import { ListaVentas } from "../Componentes/AdminListaVentas";
 import { ListaUsuarios } from "./AdminListaUsuarios.js";
-
+import { ShoppingCart} from "./shoppingCart";
 
 
 export const Navegacion = ({ rol }) => {
@@ -23,6 +23,7 @@ export const Navegacion = ({ rol }) => {
           <Route path="/ListaUsuarios" element={<ListaUsuarios />} />
           <Route path="/ListaProductosAdmin" element={<ListaProductosAdmin />} />
           <Route path="/ListaVentas" element={<ListaVentas />} />
+          <Route path="/CarritoCompras" element={< ShoppingCart />} />
           
         </Fragment>
       ) : (
