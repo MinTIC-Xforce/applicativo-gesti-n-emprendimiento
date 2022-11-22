@@ -4,13 +4,21 @@ export const ListaProductosAdmin = () => {
 
     const [dataProductos, setDataProductos] = useState([]);
 
+
     useEffect(() => {
         getData();
     }, [])
+    
+    
 
 
     function getData() {
-        fetch("http://localhost:3000/products")
+        const headers = new Headers();
+        headers.append('Content-Type', 'application/json');
+        headers.append('Accept', 'application/json');
+        headers.append('Origin','http://localhost:3000');
+
+        fetch("http://localhost:4000/products",{mode: 'cors', headers: headers})
             .then((resp) => resp.json())
             .then((resp) => {
                 return setDataProductos(resp)
@@ -42,7 +50,7 @@ export const ListaProductosAdmin = () => {
                             <td>{Producto.description}</td>
                             <td>{Producto.stock}</td>
                             <td>{Producto.price}</td>
-                            <td><img src={Producto.imagen} width={100}></img></td>
+                            <td>{Producto.image}</td>
                             <td> <button>MODIFICAR PRODUCTOS</button> </td>
                         </tr>
                     ))}
