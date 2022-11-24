@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 
-import { Login } from "./login.js";
+import { Login } from "./login.jsx";
 import { ListaProductosUsuario } from "./userListaProductos.js";
 import { CarritoCompras } from "./userCarrito.js";
 import { CrearUsuarios } from "./AdminCrearUsuarios.js";

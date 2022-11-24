@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import '../Estilos/ListaProductosAdmin.css';
-
 
 export const ListaProductosAdmin = () => {
 
@@ -30,11 +28,11 @@ export const ListaProductosAdmin = () => {
 
     return (
 
-        <div className="container mt-5 text-white " align="center">
+        <div className="container mt-5" align="center">
             <h2> Lista de productos completos</h2>
 
-            <table className="table table-bordered text-white " >
-                <thead className="thead-dark text-white">
+            <table className="table table-bordered">
+                <thead className="thead-dark">
                     <tr>
                         <td>ID </td>
                         <td>NOMBRE PRODUCTO </td>
@@ -53,7 +51,7 @@ export const ListaProductosAdmin = () => {
                             <td>{Producto.stock}</td>
                             <td>{Producto.price}</td>
                             <td>{Producto.image}</td>
-                            <td> <button class="btn btn-secondary btn-sm" > MODIFICAR PRODUCTOS</button> </td>
+                            <td> <button>MODIFICAR PRODUCTOS</button> </td>
                         </tr>
                     ))}
 

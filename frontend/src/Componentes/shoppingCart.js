@@ -12,7 +12,7 @@ export function ShoppingCart(props) {
                 <h2> Resumen de compra</h2>
 
                 <table className="table table-bordered text-white " >
-                    <Table striped >
+                    <Table className="tables" striped >
                         <thead className=" text-white ">
                             <tr>
                                 <th>Imagen</th>

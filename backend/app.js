@@ -9,6 +9,13 @@ import CORS from 'Cors'
 
 const app = express();
 
+let corsOptions = {
+    origin : ['*'],
+    //allowedHeaders:['*'],
+    //exposedHeaders:['*']
+
+ }
+
 //middlewares
 app.use(express.json());
 app.use(CORS());

@@ -77,5 +77,44 @@ export function Login() {
     }
 }
 
+/*
+
+return  fetch(`http://localhost:4000/user/${usuarioNombre}`,{mode:"no-cors", headers: headers})
+.then((resp) => resp.json())
+.then((resp) => {
+    console.log("JSON1 resp " + JSON.stringify(resp.json()))
+    console.log("JSON2 resp " + resp.userName)
+    console.log("Datos : " + usuarioNombre + contrasena )
+    console.log(decision)
+
+for (const usuario of resp) {            
+    if (usuarioNombre === usuario.userName && contrasena === usuario.passwordUser) {
+        console.log("TRUE")
+        decision = true;
+    } 
+    console.log("FALSE")
+}
+console.log(decision)
+return decision;
 
 
+
+}).catch ((err) => {console.log(err)
+return decision
+})
+
+await fetch('https://api.github.com/users/dosorio31')
+    // Exito
+    .then(response => response.json())  // convertir a json
+    .then(json => console.log(json))    //imprimir los datos en la consola
+    .catch(err => console.log('Solicitud fallida', err)); // Capturar errores
+
+    await fetch("http://localhost:4000/products")
+            .then((resp) => resp.json())
+            .then((resp) => {
+                console.log(resp)
+                return (resp)
+            })
+            .catch((err) => console.log(err));
+      }
+*/

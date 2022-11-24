@@ -13,8 +13,6 @@ function App() {
     <>
     
       <BrowserRouter>
-      
-
         <MenuNavegacion rol={rol} />
         <Navegacion rol={rol} />
 
